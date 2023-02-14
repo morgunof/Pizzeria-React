@@ -1,6 +1,7 @@
 import React from "react";
 
 import './scss/app.scss';
+import pizzas from './assets/pizzas.json'
 
 import {Header} from './components/Header';
 import {Sort} from './components/Sort';
@@ -20,9 +21,9 @@ function App() {
                   </div>
                   <h2 className="content__title">Все пиццы</h2>
                   <div className="content__items">
-                      <PizzaBlock title="Мексиканская" price={500}/>
-                      <PizzaBlock title="hello" price={350}/>
-                      <PizzaBlock title="fff" price={999}/>
+                      {
+                       pizzas.map(obj => <PizzaBlock {...obj}/>)
+                      }
                   </div>
               </div>
           </div>
@@ -31,3 +32,4 @@ function App() {
 }
 
 export default App;
+
