@@ -9,7 +9,8 @@ export function Categories() {
         <div className="categories">
             <ul>
                 {categories.map((value, index) =>
-                    <li onClick={() =>
+                    <li key={value}
+                        onClick={() =>
                         setActiveIndex(index)}
                         className={activeIndex === index ? "active" : ''}>
                         {value}
