@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8efad78e-0a7f-43bb-b45e-23d9a56604b9" name="Changes" comment="key/sort/popup">
+    <list default="true" id="8efad78e-0a7f-43bb-b45e-23d9a56604b9" name="Changes" comment="мockapi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/pizzas.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LiPDlfdDqzdvhhHOAoFpcCvHrB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,6 +46,7 @@
       <recent name="$PROJECT_DIR$/src/scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/PizzaBlock" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
@@ -52,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676350812911</updated>
-      <workItem from="1676350814014" duration="31321000" />
+      <workItem from="1676350814014" duration="48225000" />
     </task>
     <task id="LOCAL-00001" summary="useState/pb.map/render/refactoring">
       <created>1676386788057</created>
@@ -68,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676469551617</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="мockapi">
+      <created>1676489078970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676489078970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="useState/pb.map/render/refactoring" />
     <MESSAGE value="key/sort/popup" />
-    <option name="LAST_COMMIT_MESSAGE" value="key/sort/popup" />
+    <MESSAGE value="мockapi" />
+    <option name="LAST_COMMIT_MESSAGE" value="мockapi" />
   </component>
 </project>
