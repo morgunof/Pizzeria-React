@@ -4,7 +4,6 @@ import logoSvg from "../assets/img/logo.svg"
 import {Link} from "react-router-dom";
 import {Search} from "./Search ";
 
-
 export function Header() {
     return (
         <div className="header">
