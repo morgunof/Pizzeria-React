@@ -14,7 +14,7 @@ const list = [
 
 export function Sort() {
     const dispatch = useDispatch()
-    const sort = useSelector(state => state.filterSlices.sort)
+    const sort = useSelector(state => state.filter.sort)
 
     const [isVisiblePopup, setIsVisiblePopup] = React.useState(false)
 

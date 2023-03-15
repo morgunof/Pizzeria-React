@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8efad78e-0a7f-43bb-b45e-23d9a56604b9" name="Changes" comment="start using Redux Toolkit">
+    <list default="true" id="8efad78e-0a7f-43bb-b45e-23d9a56604b9" name="Changes" comment="sort,filter - on Redux Toolkit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination /index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination /index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Search /index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search /index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sort.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/filterSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/slices/filterSlices.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/slices/filterSlices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/public/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Header.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Pagination /index.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Sort.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/Home.jsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/redux/slices/filterSlices.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/redux/store.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,10 +48,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/admin/ReactProjects/react_pizza/src/scss",
+    "last_opened_file_path": "/Users/admin/ReactProjects/react_pizza",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.eslint": "",
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -64,7 +78,8 @@
       <updated>1676350812911</updated>
       <workItem from="1676350814014" duration="70342000" />
       <workItem from="1677318610760" duration="2205000" />
-      <workItem from="1677497015106" duration="36908000" />
+      <workItem from="1677497015106" duration="40081000" />
+      <workItem from="1678629224335" duration="11601000" />
     </task>
     <task id="LOCAL-00001" summary="useState/pb.map/render/refactoring">
       <created>1676386788057</created>
@@ -143,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677779764760</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sort,filter - on Redux Toolkit">
+      <created>1677855227497</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677855227497</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +193,7 @@
     <MESSAGE value="pagination" />
     <MESSAGE value="UseContext" />
     <MESSAGE value="start using Redux Toolkit" />
-    <option name="LAST_COMMIT_MESSAGE" value="start using Redux Toolkit" />
+    <MESSAGE value="sort,filter - on Redux Toolkit" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort,filter - on Redux Toolkit" />
   </component>
 </project>
