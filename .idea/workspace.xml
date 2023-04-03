@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8efad78e-0a7f-43bb-b45e-23d9a56604b9" name="Changes" comment="save params in URL">
+    <list default="true" id="8efad78e-0a7f-43bb-b45e-23d9a56604b9" name="Changes" comment="hide/show popup-sort if click outside">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sort.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sort.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,7 @@
       <workItem from="1679318499690" duration="597000" />
       <workItem from="1679998364350" duration="1875000" />
       <workItem from="1680085650899" duration="572000" />
-      <workItem from="1680254394215" duration="4550000" />
+      <workItem from="1680254394215" duration="21517000" />
     </task>
     <task id="LOCAL-00001" summary="useState/pb.map/render/refactoring">
       <created>1676386788057</created>
@@ -177,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680260207529</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hide/show popup-sort if click outside">
+      <created>1680266206709</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680266206709</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +219,7 @@
     <MESSAGE value="sort,filter - on Redux Toolkit" />
     <MESSAGE value="Debounce load/redux pagination" />
     <MESSAGE value="save params in URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="save params in URL" />
+    <MESSAGE value="hide/show popup-sort if click outside" />
+    <option name="LAST_COMMIT_MESSAGE" value="hide/show popup-sort if click outside" />
   </component>
 </project>
